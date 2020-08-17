@@ -34,6 +34,7 @@ def can_be_created_in_a_block(args = {title: "Movie", release_date:"1", director
     m.director = :director
     m.lead = :lead
     m.in_theaters = :in_theaters
+    m.save
   end
 end
 
